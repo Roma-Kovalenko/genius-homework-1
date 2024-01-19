@@ -1,0 +1,157 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+  src: url('../fonts/play-v19-cyrillic_latin-regular.woff') format('woff'),
+    
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff') format('woff'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2');
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff') format('woff'),
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2');
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff') format('woff'),
+}
+
+:root {
+  --color-primary-white: #FFFFFF;
+  --color-primary-blue: #2B7FFF;
+  --color-primary-darkblue: #011C44;
+  --color-secondary-darkgrey: #4A4A4A;
+  --color-secondary-grey: #747272;
+  --color-secondary-darkblue: #011F4A;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-darkblue);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Link */
+.header-link {
+  color: var(--color-primary-darkblue);
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: var(--color-primary-blue);
+  font-weight: 700;
+}
+
+.footer-link {
+  color: var(--color-primary-white);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  color: var(--color-primary-blue);
+  font-weight: 700;
+}
+
+.data-protected {
+  color: #747272;
+  font-size: 13px;
+}
+
+/* Button */
+.button-primary {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+  border-radius: 32px;
+  border: 2px solid var(--color-primary-blue);
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: transparent;
+  color: var(--color-primary-darkblue);
+}
+
+/* Hero title */
+.hero-title {
+  color: var(--color-primary-blue);
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.record-text {
+  font-size: 12px;
+}
+
+/* Section title */
+.section-title {
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-title .accent-capitalize {
+  color: var(--color-primary-blue);
+  text-transform: capitalize;
+}
+
+.section-title .accent {
+  color: var(--color-primary-blue);
+}
+
+.section-title-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.section-title-text .bold {
+  font-weight: 700;
+}
+
+/* Advantages */
+
+.advantages-item {
+  color: #000;
+  line-height: 1.3;
+}
+
+.procedures {
+  color: var(--color-primary-white);
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+}
